@@ -1,53 +1,56 @@
-**Product Filtering and Searching Application**
-**Overview**
-**This project is a full-stack application for managing products with the following features:**
+
+# **Welcome to the Project!** 🚀
+# **Product Filtering and Searching Application** 🎉
+
+###  **Overview**
+This project is a full-stack application that provides robust product management capabilities with the following features:
 
 **Filtering by category name**
- -Sorting by price (low to high, high to low)
- -Sorting by title (A to Z, Z to A)
- -Searching by category name or product title
+ - Sorting by price (low to high, high to low)
+ - Sorting by title (A to Z, Z to A)
+ - Searching by category name or product title
 
 **Backend: Laravel**
-  -Implements API for product retrieval with filters, search, and sorting.
-  -Uses Eloquent ORM to manage relationships between Product and Category.
+  - Implements API for product retrieval with filters, search, and sorting.
+  - Uses Eloquent ORM to manage relationships between Product and Category.
 
 **Frontend: React**
-  -Uses Redux and createAsyncThunk for state management and handling API requests.
-  -Implements pagination and search with dynamic product list updates based on user input.
+  - Uses Redux and createAsyncThunk for state management and handling API requests.
+  - Implements pagination and search with dynamic product list updates based on user input.
 
-#**Backend - Laravel**
-#**Prerequisites**
-  -PHP >= 8.0
-  -Composer
-  -MySQL or any other database supported by Laravel
+# **Backend - Laravel**
+# **Prerequisites**
+  - PHP >= 8.0
+  - Composer
+  - MySQL or any other database supported by Laravel
 
-#**Installation**
-#**Clone the repository:**
+# **Installation**
+# **Clone the repository:**
 
 `git clone <repository-url>`
 `cd <repository-folder>`
 
-#**Install dependencies:**
+# **Install dependencies:**
 
 `composer install`
 
 Set up your .env file: Copy the .env.example to .env and update your database credentials.
 cp .env.example .env
-#**Run database migrations:**
+# **Run database migrations:**
 
 `php artisan migrate`
 
-#**Seed your database with test data (optional):**
+# **Seed your database with test data (optional):**
 
 
 `php artisan db:seed`
 
-#**Start the development server:**
+# **Start the development server:**
 
-#**Run Project :**
+# **Run Project :**
 `php artisan serve`
 
-#**API Endpoints**
+# **API Endpoints**
 
 **HTTP Method	URL	Description**
 GET	/api/products	Get all products, with filtering, sorting, and searching
@@ -111,7 +114,8 @@ public function index(Request $request)
     return response()->json($products);
 }
 ```
-#Backend Functionality
+# **Backend Functionality**
+
 1. **Get Products** (With Filters, Sorting, and Search)
    - **URL**: `/api/products`
    - **Method**: `GET`
@@ -123,12 +127,12 @@ public function index(Request $request)
   - **URL**: `/api/products`
   - **Method**: `POST`
 
-#**Database Schema**
+# **Database Schema**
 
-**Products Table**
-### Database Structure
+## **Products Table**
+### **Database Structure**
 
-#### Product Table
+### **Product Table**
 
 | Field        | Type    | Description                      |
 | ------------ | ------- | --------------------------------- |
@@ -150,9 +154,9 @@ public function index(Request $request)
 
 # **Frontend-React**
 # **Prerequisites**
-Node.js >= 12
-npm or yarn
-Installation
+ - Node.js >= 12
+ - npm or yarn
+ - Installation
 
 
 **Navigate to the frontend directory:**
@@ -166,9 +170,9 @@ Installation
 
 `npm start`
 
-#**Redux - State Management**
+# **Redux - State Management**
 
-ProductSlice.js
+## **ProductSlice.js**
 ```
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
