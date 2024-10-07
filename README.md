@@ -53,8 +53,8 @@ cp .env.example .env
 # **API Endpoints**
 
 **HTTP Method	URL	Description**
-GET	/api/products	Get all products, with filtering, sorting, and searching
-GET	/api/categories	Get all categories
+  - GET	/api/products	Get all products, with filtering, sorting, and searching
+  - GET	/api/categories	Get all categories
 
 ProductController
 index method
