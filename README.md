@@ -108,6 +108,7 @@ public function index(Request $request)
 
     return response()->json($products);
 }
+```
 #Backend Functionality
 1. **Get Products** (With Filters, Sorting, and Search)
    - **URL**: `/api/products`
@@ -257,6 +258,8 @@ export default function Product() {
             <p>{product.price}</p>
           </div>
         ))}
+
+        ```
       </div>
     </div>
   );
