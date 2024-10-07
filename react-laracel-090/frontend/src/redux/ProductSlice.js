@@ -69,7 +69,6 @@ export const productSlice = createSlice({
       .addCase(getProducts.fulfilled, (state, action) => {
         state.loading = false;
         state.error = false;
-        console.log(action);
         state.products = action.payload.data || [];
         state.products.length == 0
           ? (state.empty_data = true)
