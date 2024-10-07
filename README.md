@@ -1,17 +1,17 @@
-#**Product Filtering and Searching Application**
+**Product Filtering and Searching Application**
 **Overview**
-#**This project is a full-stack application for managing products with the following features:**
+**This project is a full-stack application for managing products with the following features:**
 
 Filtering by category name
-Sorting by price (low to high, high to low)
-Sorting by title (A to Z, Z to A)
-Searching by category name or product title
+-Sorting by price (low to high, high to low)
+-Sorting by title (A to Z, Z to A)
+-Searching by category name or product title
 **Backend: Laravel**
-Implements API for product retrieval with filters, search, and sorting.
-Uses Eloquent ORM to manage relationships between Product and Category.
+-Implements API for product retrieval with filters, search, and sorting.
+-Uses Eloquent ORM to manage relationships between Product and Category.
 **Frontend: React**
-Uses Redux and createAsyncThunk for state management and handling API requests.
-Implements pagination and search with dynamic product list updates based on user input.
+-Uses Redux and createAsyncThunk for state management and handling API requests.
+-Implements pagination and search with dynamic product list updates based on user input.
 
 #**Backend - Laravel**
 #**Prerequisites**
