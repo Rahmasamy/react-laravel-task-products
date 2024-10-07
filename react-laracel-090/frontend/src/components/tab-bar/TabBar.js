@@ -58,7 +58,7 @@ export const TabBar = () => {
           style={{ backgroundColor: "#fff" }}>
           <input
             type="text"
-            placeholder="Search"
+            placeholder="Search by Product Name or Category"
             value={searchValue}
             onChange={(e) => setSearchValue(e.target.value)}
             className="p-2 w-full rounded-md focus:outline-none "
