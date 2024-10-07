@@ -211,6 +211,7 @@ const productSlice = createSlice({
 });
 
 ```
+```
 export default productSlice.reducer;
 Product Component (React)
 jsx
@@ -259,8 +260,9 @@ export default function Product() {
           </div>
         ))}
 
-        ```
       </div>
     </div>
   );
 }
+
+        ```
