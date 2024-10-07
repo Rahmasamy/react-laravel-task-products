@@ -2,6 +2,10 @@
 # **Welcome to the Project!** 🚀
 # **Product Filtering and Searching Application** 🎉
 
+
+![Alt text](https://images.squarespace-cdn.com/content/v1/5b48c29f9f8770367788f244/1611582700101-JMIIX69SHSXK1X96XE91/ke17ZwdGBToddI8pDm48kHKmDLrMZO7HHpcyjMqbzOMUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcBVek0a0L5ZzZO5sIOvWwrqKYA-dXl4sYwgdPtOa0B174TByWOce_SwawEQNsQ9Qi/ecommerce+marketing+strategy)
+
+
 ###  **Overview**
 This project is a full-stack application that provides robust product management capabilities with the following features:
 
