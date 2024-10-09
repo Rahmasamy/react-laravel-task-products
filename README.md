@@ -9,7 +9,7 @@
 ###  **Overview**
 This project is a full-stack application that provides robust product management capabilities with the following features:
 
-**Filtering by category name**
+ - Filtering by category name
  - Sorting by price (low to high, high to low)
  - Sorting by title (A to Z, Z to A)
  - Searching by category name or product title
@@ -31,8 +31,8 @@ This project is a full-stack application that provides robust product management
 # **Installation**
 # **Clone the repository:**
 
-`git clone <repository-url>`
-`cd <repository-folder>`
+- `git clone <repository-url>`
+- `cd <repository-folder>`
 
 # **Install dependencies:**
 
@@ -144,7 +144,7 @@ public function index(Request $request)
 | `title`      | string  | Product title                     |
 | `price`      | decimal | Product price                     |
 | `category_id`| int     | Foreign key to categories table   |
-
+| `image`       | string  | File  | 
 #### Categories Table
 
 | Field   | Type   | Description   |
