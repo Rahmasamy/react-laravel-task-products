@@ -13,6 +13,8 @@ This project is a full-stack application that provides robust product management
  - Sorting by price (low to high, high to low)
  - Sorting by title (A to Z, Z to A)
  - Searching by category name or product title
+ - Pagination
+ - add Product 
 
 **Backend: Laravel**
   - Implements API for product retrieval with filters, search, and sorting.
