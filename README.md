@@ -61,7 +61,7 @@ cp .env.example .env
 **HTTP Method	URL	Description**
   - GET	/api/products	Get all products, with filtering, sorting, and searching
   - GET	/api/categories	Get all categories
-
+  
 ProductController
 index method
 
@@ -129,7 +129,12 @@ public function index(Request $request)
      - `category`: Filter by category name
      - `query`: Search by product title
      - `sort_by`: Sort the results (`price_asc`, `price_desc`, `title_asc`, `title_desc`)
-2. **Post Product**
+       
+2.**get Categories**
+   - **URL**: GET	/api/categories	Get      all categories
+   - **Method**: `GET`
+     
+3. **Post Product**
   - **URL**: `/api/products`
   - **Method**: `POST`
 
